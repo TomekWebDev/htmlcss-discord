@@ -129,7 +129,7 @@ section{
     padding-top: 3%;
 }
 
-/*  */
+/* item section 3 bug fixing (padding is different from the others) */
 
 .section3 .smaller{
     padding-top: 1%;
