@@ -27,10 +27,9 @@ button{
     background-color: white;
 }
 
-.bigButtons{
+.bigButton{
     font-size: medium;
     font-weight: 500;
-    margin-top: 5%;
     padding: 0.8rem 1rem;
 }
 
@@ -40,6 +39,11 @@ button{
 
 .blackButton{
     background-color: black;
+    color: white;
+}
+
+.violetButton{
+    background-color: #8ea1e1;
     color: white;
 }
 
@@ -94,6 +98,7 @@ button{
 .buttonsContainer{
     width: 80%;
     margin: auto;
+    margin-top: 5%;
 }
 
 /* sections in columns */
@@ -108,7 +113,7 @@ section{
 }
 
 .sectionGray{
-    background-color: gray;
+    background-color: #f6f6f6;
 }
 
 .sectionContainerReverse{
@@ -142,6 +147,9 @@ section{
 
 .flexRow .sectionTitle{
     text-align: left;
+}
+
+.sectionTitle{
     font-size: 2.3rem;
     line-height: 2.8rem;
 }
@@ -153,12 +161,24 @@ section{
 .sectionTitle,
 .imgHorizontal,
 .sectionParagraph{
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
+.sectionSubtitle{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background-size: 100%;
+    font-size: 1.5rem;
+}
+
+.imgHorizontal > img{
+    width: 100%;
+}
+
 .imgHorizontal{
-    background-color: beige;
+    width: 100%;
 }
 
 /* footer */
@@ -193,4 +213,5 @@ footer{
 .pageBottomContainer{
     background-color: aliceblue;
 }
+
 
