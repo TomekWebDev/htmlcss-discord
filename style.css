@@ -16,10 +16,39 @@ ul{
     list-style: none;
 }
 
+button{
+    /* padding: 5px 12px; */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    /* margin-top: 3%; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    background-color: white;
+}
+
+.bigButtons{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 5%;
+    padding: 0.8rem 1rem;
+}
+
+.whiteButton{
+    background-color: white;
+}
+
+.blackButton{
+    background-color: black;
+    color: white;
+}
+
 .width70Container{
     width: 70%;
     margin: auto;
 }
+
+/* header */
 
 .topBarContainer{
     padding-top: 1%;
@@ -31,12 +60,6 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/* .headerElement{
-    height: 60px;
-    background-color:coral;
-    padding: 2%;
-} */
 
 .menuContainer{
     flex-basis: 80%;
@@ -63,37 +86,9 @@ ul{
     padding-bottom: 9%;
 }
 
-.mainTitle{
+.headerTitle{
     margin-bottom: 5%;
     font-size: 3rem;
-}
-
-button{
-    /* padding: 5px 12px; */
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 2rem;
-    /* margin-top: 3%; */
-    font-family: 'Open Sans', sans-serif;
-    font-size: small;
-    background-color: white;
-    
-}
-
-.bigButtons{
-    font-size: medium;
-    font-weight: 500;
-    margin-top: 5%;
-    padding: 0.8rem 1rem;
-}
-
-.whiteButton{
-    background-color: white;
-}
-
-.blackButton{
-    background-color: black;
-    color: white;
 }
 
 .buttonsContainer{
@@ -101,9 +96,11 @@ button{
     margin: auto;
 }
 
+/* sections in columns */
+
 section{
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .sectionWhite{
@@ -118,18 +115,38 @@ section{
     flex-direction: row-reverse;
 }
 
-.larger,
+/* .larger,
 .smaller{
     background-color: lightskyblue;
-}
+} */
 
 .larger{
-    flex-basis: 50%;
+    width: 59%;
 }
 
 .smaller{
-    flex-basis: 40%;
+    width: 30%;
+    padding-top: 3%;
 }
+
+/*  */
+
+.section3 .smaller{
+    padding-top: 1%;
+}
+
+.larger > img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.flexRow .sectionTitle{
+    text-align: left;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+}
+
+/* sections in rows */
 
 /* se sostituisco section title con un H non serve il margin bottom */
 
@@ -143,6 +160,8 @@ section{
 .imgHorizontal{
     background-color: beige;
 }
+
+/* footer */
 
 footer{
     background-color: #23272A;
