@@ -65,6 +65,7 @@ ul{
 
 .mainTitle{
     margin-bottom: 5%;
+    font-size: 3rem;
 }
 
 button{
@@ -81,7 +82,23 @@ button{
 
 .bigButtons{
     font-size: medium;
-    margin-top: 2%;
+    font-weight: 500;
+    margin-top: 5%;
+    padding: 0.8rem 1rem;
+}
+
+.whiteButton{
+    background-color: white;
+}
+
+.blackButton{
+    background-color: black;
+    color: white;
+}
+
+.buttonsContainer{
+    width: 80%;
+    margin: auto;
 }
 
 section{
