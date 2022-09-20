@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+body,
+button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
 header{
-    background-color: lightgrey;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    color: white;
 }
 
 ul{
@@ -11,15 +21,26 @@ ul{
     margin: auto;
 }
 
-.headerElement{
+.topBarContainer{
+    padding-top: 1%;
+}
+
+.logoContainer{
+    background-image: url(img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .headerElement{
     height: 60px;
     background-color:coral;
     padding: 2%;
-}
+} */
 
 .menuContainer{
     flex-basis: 80%;
-    background-color: bisque;
+    color: white;
 }
 
 .logoContainer,
@@ -30,13 +51,14 @@ ul{
 .menuList{
     flex-basis: 60%;
     list-style: none;
+    font-size: small;
 }
 
 .headingContainer{
     width: 40%;
     margin: auto;
     text-align: center;
-    background-color: lightyellow;
+    /* background-color: lightyellow; */
     padding-top: 8%;
     padding-bottom: 9%;
 }
@@ -46,8 +68,20 @@ ul{
 }
 
 button{
-    padding: 5px;
-    margin-top: 3%;
+    /* padding: 5px 12px; */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    /* margin-top: 3%; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    background-color: white;
+    
+}
+
+.bigButtons{
+    font-size: medium;
+    margin-top: 2%;
 }
 
 section{
@@ -122,5 +156,5 @@ footer{
 
 .pageBottomContainer{
     background-color: aliceblue;
-    
 }
+
