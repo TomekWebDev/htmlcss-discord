@@ -1,0 +1,126 @@
+header{
+    background-color: lightgrey;
+}
+
+ul{
+    list-style: none;
+}
+
+.width70Container{
+    width: 70%;
+    margin: auto;
+}
+
+.headerElement{
+    height: 60px;
+    background-color:coral;
+    padding: 2%;
+}
+
+.menuContainer{
+    flex-basis: 80%;
+    background-color: bisque;
+}
+
+.logoContainer,
+.loginContainer{
+    flex-basis: 10%;
+}
+
+.menuList{
+    flex-basis: 60%;
+    list-style: none;
+}
+
+.headingContainer{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: lightyellow;
+    padding-top: 8%;
+    padding-bottom: 9%;
+}
+
+.mainTitle{
+    margin-bottom: 5%;
+}
+
+button{
+    padding: 5px;
+    margin-top: 3%;
+}
+
+section{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.sectionWhite{
+    background-color: white;
+}
+
+.sectionGray{
+    background-color: gray;
+}
+
+.sectionContainerReverse{
+    flex-direction: row-reverse;
+}
+
+.larger,
+.smaller{
+    background-color: lightskyblue;
+}
+
+.larger{
+    flex-basis: 50%;
+}
+
+.smaller{
+    flex-basis: 40%;
+}
+
+/* se sostituisco section title con un H non serve il margin bottom */
+
+.sectionTitle,
+.imgHorizontal,
+.sectionParagraph{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.imgHorizontal{
+    background-color: beige;
+}
+
+footer{
+    background-color: #23272A;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footerContainer{
+    border-bottom: 3px solid red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.footerSocial{
+    flex-basis: 30%;
+    background-color: aliceblue;
+}
+
+.footerMenu{
+    flex-basis: 68%;
+    background-color: aliceblue;
+}
+
+.footerSocialList > li{
+    display: inline-block;
+}
+
+.pageBottomContainer{
+    background-color: aliceblue;
+    
+}
