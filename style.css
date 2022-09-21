@@ -211,6 +211,7 @@ footer{
 
 .footerSocialList > li{
     display: inline-block;
+    margin: 0 3%;
 }
 
 .languageFlag{
@@ -238,3 +239,18 @@ footer li{
     font-weight: 500;
     margin: 0.6rem 0 0.6rem;
 }
+
+#langSel{
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* tutto il css è da pulire
+
+    - classi da rivedere
+    - selettori da rendere avanzati
+    - proprietà ricorrenti
+    - ordine del codice 
+    
+    */

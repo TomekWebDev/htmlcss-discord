@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -79,14 +80,16 @@
                 <h3 class="sectionSubtitle">Il tuo posto per parlare</h2>
                 <div class="languageContainer flexContainer alignCenter">
                     <img class="languageFlag" src="img/ita.png" alt="">
-                    <div>Italiano</div>
+                    <select name="lang" id="langSel">
+                            <option value="Ita">Italiano</option>
+                    </select>
                 </div>
                 <div>
                     <ul class="footerSocialList">
-                        <li>tw</li>
-                        <li>ig</li>
-                        <li>fb</li>
-                        <li>yt</li>
+                        <li class="fa-brands fa-twitter"></li>
+                        <li class="fa-brands fa-instagram"></li>
+                        <li class="fa-brands fa-facebook"></li>
+                        <li class="fa-brands fa-youtube"></li>
                     </ul>
                 </div>
             </div>
@@ -138,3 +141,35 @@
 
 </body>
 </html>
+
+<!--    CORREZIONI
+    
+        - per lista orizzontale uso inline-block, non serve flex
+        - per separare i bottoni nel div in alto non mi serviva fare tutto flexato,
+        bastava usare un selettore avanzato per selezionare solo loro due e dargli
+        margin: 0 1% per esempio 
+        - spazi sopra e sotto padding all'header
+        spazi intermedi margin bottom all'h1 e al paragrafo o margin top ai 
+        2 btn di cui abbiamo gia selettore
+        - immagine in html con width 100 rispetto al suo contenitore cosi che rimane
+        perfetta
+        - le immagini lasciano spazietto per bug del css (vertical align middle ha funzionato)
+        - la section reverse poteva anche essere fatta con order 1 order 2
+        - la sezione con tutto in orizzontale poteva essere una section con i div
+        dentro che hanno tutti text align center
+        - si poteva usare la select con option per selettore lingua stilizzandola
+
+        
+
+
+        DOMANDE
+
+        - background cover stelline, usando il flex column l'h3 che è dentro
+        viene già trattato come se fosse inline block e quindi basta background
+        no repeat, size 100% e padding su tutto per spaziare e tenerlo al centro
+        - va bene avere 2 file di css separando le utility o preferite vederle
+        sullo stesso file?
+
+        
+        
+        --->
